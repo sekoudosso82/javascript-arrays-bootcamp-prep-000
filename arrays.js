@@ -4,3 +4,4 @@ function addElementToBeginningOfArray(array, element)
 {
   [element, ...array] // non destructive
 }
+
