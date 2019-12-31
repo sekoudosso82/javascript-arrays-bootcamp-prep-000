@@ -33,7 +33,11 @@ function accessElementInArray(array, index)
   return result
 }
 
-function 
+function destructivelyRemoveElementFromBeginningOfArray(array)
+{
+  array.shift(element)
+  return array
+}
 
 
 
