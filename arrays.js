@@ -7,6 +7,6 @@ function addElementToBeginningOfArray(array, element)
 
 function addElementToBeginningOfArray(array, element)
 {
-  [element, ...array]
-  // array.unshift(element)
+  
+  array.unshift(element)
 }
